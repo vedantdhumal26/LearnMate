@@ -1,0 +1,60 @@
+# ==================================================
+# LearnMate (IIT-HACKATHON) Git Ignore Configuration
+# ==================================================
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+!**/.env.example
+
+# Local databases & persistent vector stores
+*.db
+*.sqlite
+*.sqlite3
+qdrant_storage/
+**/qdrant_storage/
+
+# Uploaded documents & user media
+uploads/*
+**/uploads/*
+!**/uploads/.gitkeep
+
+# Python virtual environments & bytecode
+.venv/
+env/
+venv/
+ENV/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Testing & coverage
+.pytest_cache/
+**/.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend build artifacts
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+dist-ssr/
+*.local
+*.timestamp-*.mjs
+
+# Logs
+logs/
+*.log
+
+# IDE & Editor files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db

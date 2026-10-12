@@ -1,0 +1,550 @@
+[
+  {
+    "id": "eval-pdf-01",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What is Newton's first law of motion and what property of matter resists velocity changes?",
+    "expected_answer": "Inertia",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "62448db4-0c6e-40ae-95cd-7cbb4e0bd8ae",
+        "file_name": "benchmark_physics_guide.pdf",
+        "page": 1,
+        "modality": "pdf"
+      }
+    ]
+  },
+  {
+    "id": "eval-pdf-02",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What is Newton's second law of motion and its mathematical equation?",
+    "expected_answer": "F = m * a",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "62448db4-0c6e-40ae-95cd-7cbb4e0bd8ae",
+        "file_name": "benchmark_physics_guide.pdf",
+        "page": 2,
+        "modality": "pdf"
+      }
+    ]
+  },
+  {
+    "id": "eval-pdf-03",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What does Newton's third law of motion state regarding action and reaction?",
+    "expected_answer": "Equal in magnitude and opposite in direction",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "62448db4-0c6e-40ae-95cd-7cbb4e0bd8ae",
+        "file_name": "benchmark_physics_guide.pdf",
+        "page": 3,
+        "modality": "pdf"
+      }
+    ]
+  },
+  {
+    "id": "eval-pdf-04",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What is linear momentum and when is the total momentum of an isolated system conserved?",
+    "expected_answer": "p = m * v",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "62448db4-0c6e-40ae-95cd-7cbb4e0bd8ae",
+        "file_name": "benchmark_physics_guide.pdf",
+        "page": 4,
+        "modality": "pdf"
+      }
+    ]
+  },
+  {
+    "id": "eval-pdf-05",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What does the work-energy theorem state about the work done on a particle?",
+    "expected_answer": "W_net = Delta K",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "62448db4-0c6e-40ae-95cd-7cbb4e0bd8ae",
+        "file_name": "benchmark_physics_guide.pdf",
+        "page": 5,
+        "modality": "pdf"
+      }
+    ]
+  },
+  {
+    "id": "eval-pdf-06",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What is gravitational potential energy and what is its formula?",
+    "expected_answer": "U = m * g * h",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "62448db4-0c6e-40ae-95cd-7cbb4e0bd8ae",
+        "file_name": "benchmark_physics_guide.pdf",
+        "page": 6,
+        "modality": "pdf"
+      }
+    ]
+  },
+  {
+    "id": "eval-pdf-07",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What is the first law of thermodynamics equation relating internal energy, heat, and work?",
+    "expected_answer": "Delta U = Q - W",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "62448db4-0c6e-40ae-95cd-7cbb4e0bd8ae",
+        "file_name": "benchmark_physics_guide.pdf",
+        "page": 7,
+        "modality": "pdf"
+      }
+    ]
+  },
+  {
+    "id": "eval-pdf-08",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What does the second law of thermodynamics state about the entropy of an isolated system?",
+    "expected_answer": "Total entropy always increases over time",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "62448db4-0c6e-40ae-95cd-7cbb4e0bd8ae",
+        "file_name": "benchmark_physics_guide.pdf",
+        "page": 8,
+        "modality": "pdf"
+      }
+    ]
+  },
+  {
+    "id": "eval-pdf-09",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What is Coulomb's law of electrostatics and how does force vary with distance?",
+    "expected_answer": "F = k * |q1 * q2| / r^2",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "62448db4-0c6e-40ae-95cd-7cbb4e0bd8ae",
+        "file_name": "benchmark_physics_guide.pdf",
+        "page": 9,
+        "modality": "pdf"
+      }
+    ]
+  },
+  {
+    "id": "eval-pdf-10",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What is Snell's law of refraction relating angles and refractive indices?",
+    "expected_answer": "n1 * sin(theta1) = n2 * sin(theta2)",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "62448db4-0c6e-40ae-95cd-7cbb4e0bd8ae",
+        "file_name": "benchmark_physics_guide.pdf",
+        "page": 10,
+        "modality": "pdf"
+      }
+    ]
+  },
+  {
+    "id": "eval-pptx-01",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What is an electric motor according to the presentation slides?",
+    "expected_answer": "Electromechanical device converting electrical to mechanical energy",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "b7a5105d-7e2a-4610-84d0-59629fbb49a8",
+        "file_name": "benchmark_electrical_machines.pptx",
+        "slide": 1,
+        "modality": "pptx"
+      }
+    ]
+  },
+  {
+    "id": "eval-pptx-02",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What are the three primary components of an electric motor mentioned in the slides?",
+    "expected_answer": "Stator, rotor, and commutator",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "b7a5105d-7e2a-4610-84d0-59629fbb49a8",
+        "file_name": "benchmark_electrical_machines.pptx",
+        "slide": 2,
+        "modality": "pptx"
+      }
+    ]
+  },
+  {
+    "id": "eval-pptx-03",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What is the Lorentz force law formula that governs electric motor operation?",
+    "expected_answer": "F = q * (E + v x B)",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "b7a5105d-7e2a-4610-84d0-59629fbb49a8",
+        "file_name": "benchmark_electrical_machines.pptx",
+        "slide": 3,
+        "modality": "pptx"
+      }
+    ]
+  },
+  {
+    "id": "eval-pptx-04",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "Which rule is used to determine the force direction on armature conductors in DC motors?",
+    "expected_answer": "Fleming's left-hand rule",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "b7a5105d-7e2a-4610-84d0-59629fbb49a8",
+        "file_name": "benchmark_electrical_machines.pptx",
+        "slide": 4,
+        "modality": "pptx"
+      }
+    ]
+  },
+  {
+    "id": "eval-pptx-05",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What type of magnetic field do AC induction motors rely on to induce currents in the rotor?",
+    "expected_answer": "Rotating magnetic field",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "b7a5105d-7e2a-4610-84d0-59629fbb49a8",
+        "file_name": "benchmark_electrical_machines.pptx",
+        "slide": 5,
+        "modality": "pptx"
+      }
+    ]
+  },
+  {
+    "id": "eval-pptx-06",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "Through what principle do transformers transfer electrical energy between circuits?",
+    "expected_answer": "Mutual electromagnetic induction",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "b7a5105d-7e2a-4610-84d0-59629fbb49a8",
+        "file_name": "benchmark_electrical_machines.pptx",
+        "slide": 6,
+        "modality": "pptx"
+      }
+    ]
+  },
+  {
+    "id": "eval-pptx-07",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What is the turns ratio equation relating voltages and turns for an ideal transformer?",
+    "expected_answer": "Vp / Vs = Np / Ns",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "b7a5105d-7e2a-4610-84d0-59629fbb49a8",
+        "file_name": "benchmark_electrical_machines.pptx",
+        "slide": 7,
+        "modality": "pptx"
+      }
+    ]
+  },
+  {
+    "id": "eval-pptx-08",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What is the difference in function between rectifier circuits and power inverters?",
+    "expected_answer": "Rectifiers convert AC to DC, inverters convert DC to AC",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "b7a5105d-7e2a-4610-84d0-59629fbb49a8",
+        "file_name": "benchmark_electrical_machines.pptx",
+        "slide": 8,
+        "modality": "pptx"
+      }
+    ]
+  },
+  {
+    "id": "eval-mp4-01",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "According to Bernoulli's principle in the lecture video, what happens to static pressure when velocity increases?",
+    "expected_answer": "Static pressure decreases",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "d18f2176-8aef-4093-b667-84d032646ca8",
+        "file_name": "benchmark_fluid_mechanics.mp4",
+        "start_seconds": 0.0,
+        "end_seconds": 15.0,
+        "modality": "video"
+      }
+    ]
+  },
+  {
+    "id": "eval-mp4-02",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What dimensionless parameter determines the transition between laminar and turbulent flow?",
+    "expected_answer": "Reynolds number",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "d18f2176-8aef-4093-b667-84d032646ca8",
+        "file_name": "benchmark_fluid_mechanics.mp4",
+        "start_seconds": 5.0,
+        "end_seconds": 20.0,
+        "modality": "video"
+      }
+    ]
+  },
+  {
+    "id": "eval-mp4-03",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What does the continuity equation state for incompressible fluids flowing through a conduit?",
+    "expected_answer": "Area times velocity remains constant",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "d18f2176-8aef-4093-b667-84d032646ca8",
+        "file_name": "benchmark_fluid_mechanics.mp4",
+        "start_seconds": 12.0,
+        "end_seconds": 30.0,
+        "modality": "video"
+      }
+    ]
+  },
+  {
+    "id": "eval-mp4-04",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What is the Venturi effect described in the fluid mechanics lecture video?",
+    "expected_answer": "Fluid pressure reduction when flowing through a constricted narrow section",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "d18f2176-8aef-4093-b667-84d032646ca8",
+        "file_name": "benchmark_fluid_mechanics.mp4",
+        "start_seconds": 20.0,
+        "end_seconds": 35.0,
+        "modality": "video"
+      }
+    ]
+  },
+  {
+    "id": "eval-mp4-05",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What property generates internal shear resistance in Poiseuille pipe flow?",
+    "expected_answer": "Fluid dynamic viscosity",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "d18f2176-8aef-4093-b667-84d032646ca8",
+        "file_name": "benchmark_fluid_mechanics.mp4",
+        "start_seconds": 28.0,
+        "end_seconds": 45.0,
+        "modality": "video"
+      }
+    ]
+  },
+  {
+    "id": "eval-mp4-06",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "How is aerodynamic lift generated on an asymmetric cambered airfoil?",
+    "expected_answer": "Lower static pressure on its upper surface",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "d18f2176-8aef-4093-b667-84d032646ca8",
+        "file_name": "benchmark_fluid_mechanics.mp4",
+        "start_seconds": 36.0,
+        "end_seconds": 52.0,
+        "modality": "video"
+      }
+    ]
+  },
+  {
+    "id": "eval-mp4-07",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What phenomenon occurs at excessive angles of attack leading to aerodynamic stall?",
+    "expected_answer": "Boundary layer separation",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "d18f2176-8aef-4093-b667-84d032646ca8",
+        "file_name": "benchmark_fluid_mechanics.mp4",
+        "start_seconds": 44.0,
+        "end_seconds": 60.0,
+        "modality": "video"
+      }
+    ]
+  },
+  {
+    "id": "eval-mp4-08",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What does Pascal's principle state about pressure applied to an enclosed static fluid?",
+    "expected_answer": "Pressure is transmitted undiminished in all directions",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "d18f2176-8aef-4093-b667-84d032646ca8",
+        "file_name": "benchmark_fluid_mechanics.mp4",
+        "start_seconds": 50.0,
+        "end_seconds": 65.0,
+        "modality": "video"
+      }
+    ]
+  },
+  {
+    "id": "eval-yt-01",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "How many neurons make up the input layer for a 28 by 28 pixel image in the neural network video?",
+    "expected_answer": "784 neurons",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "e17cb3a7-7479-4031-99bd-19effa664ce8",
+        "start_seconds": 180.0,
+        "end_seconds": 240.0,
+        "modality": "youtube"
+      }
+    ]
+  },
+  {
+    "id": "eval-yt-02",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What range of numerical values can the activation of a neuron take?",
+    "expected_answer": "Between 0 and 1",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "e17cb3a7-7479-4031-99bd-19effa664ce8",
+        "start_seconds": 180.0,
+        "end_seconds": 240.0,
+        "modality": "youtube"
+      }
+    ]
+  },
+  {
+    "id": "eval-yt-03",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "How many output neurons are in the final layer for recognizing handwritten digits?",
+    "expected_answer": "10 output neurons",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "e17cb3a7-7479-4031-99bd-19effa664ce8",
+        "start_seconds": 190.0,
+        "end_seconds": 265.0,
+        "modality": "youtube"
+      }
+    ]
+  },
+  {
+    "id": "eval-yt-04",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What subcomponents do hidden layers detect in the neural network video?",
+    "expected_answer": "Patterns of edges and loops",
+    "expected_grounded": true,
+    "expected_sources": [
+      {
+        "source_id": "e17cb3a7-7479-4031-99bd-19effa664ce8",
+        "start_seconds": 440.0,
+        "end_seconds": 560.0,
+        "modality": "youtube"
+      }
+    ]
+  },
+  {
+    "id": "eval-unsupported-01",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What is the capital of ancient Mesopotamia and what were the complete laws of Hammurabi?",
+    "expected_answer": null,
+    "expected_grounded": false,
+    "expected_sources": []
+  },
+  {
+    "id": "eval-unsupported-02",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What are the official tournament rules and scoring of professional cricket including the LBW rule?",
+    "expected_answer": null,
+    "expected_grounded": false,
+    "expected_sources": []
+  },
+  {
+    "id": "eval-unsupported-03",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "Who were the primary emperors of the Ming Dynasty in imperial Chinese history?",
+    "expected_answer": null,
+    "expected_grounded": false,
+    "expected_sources": []
+  },
+  {
+    "id": "eval-unsupported-04",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "Explain the detailed biological mechanism of chlorophyll synthesis in marine cyanobacteria.",
+    "expected_answer": null,
+    "expected_grounded": false,
+    "expected_sources": []
+  },
+  {
+    "id": "eval-unsupported-05",
+    "course_id": "a8797476-2729-4e5f-bd77-7330492c5015",
+    "question": "What are the exact FIFA regulations defining an offside violation in professional soccer?",
+    "expected_answer": null,
+    "expected_grounded": false,
+    "expected_sources": []
+  },
+  {
+    "id": "eval-isolation-01",
+    "course_id": "45b458e9-7670-449c-b642-d8724487eea5",
+    "question": "What is Newton's second law and the formula from the physics document?",
+    "expected_answer": null,
+    "expected_grounded": false,
+    "expected_sources": [],
+    "is_course_isolation": true,
+    "source_course_id": "a8797476-2729-4e5f-bd77-7330492c5015"
+  },
+  {
+    "id": "eval-isolation-02",
+    "course_id": "45b458e9-7670-449c-b642-d8724487eea5",
+    "question": "What are the three components of an electric motor mentioned in the slides?",
+    "expected_answer": null,
+    "expected_grounded": false,
+    "expected_sources": [],
+    "is_course_isolation": true,
+    "source_course_id": "a8797476-2729-4e5f-bd77-7330492c5015"
+  },
+  {
+    "id": "eval-isolation-03",
+    "course_id": "45b458e9-7670-449c-b642-d8724487eea5",
+    "question": "According to Bernoulli's principle in the video, what happens to fluid pressure?",
+    "expected_answer": null,
+    "expected_grounded": false,
+    "expected_sources": [],
+    "is_course_isolation": true,
+    "source_course_id": "a8797476-2729-4e5f-bd77-7330492c5015"
+  },
+  {
+    "id": "eval-isolation-04",
+    "course_id": "45b458e9-7670-449c-b642-d8724487eea5",
+    "question": "How many neurons make up the input layer of the neural network?",
+    "expected_answer": null,
+    "expected_grounded": false,
+    "expected_sources": [],
+    "is_course_isolation": true,
+    "source_course_id": "a8797476-2729-4e5f-bd77-7330492c5015"
+  },
+  {
+    "id": "eval-isolation-05",
+    "course_id": "45b458e9-7670-449c-b642-d8724487eea5",
+    "question": "What is the continuity equation for incompressible fluid flow?",
+    "expected_answer": null,
+    "expected_grounded": false,
+    "expected_sources": [],
+    "is_course_isolation": true,
+    "source_course_id": "a8797476-2729-4e5f-bd77-7330492c5015"
+  }
+]

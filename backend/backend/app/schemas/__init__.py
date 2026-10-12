@@ -1,0 +1,90 @@
+from app.schemas.auth import SignupRequest, LoginRequest, UserResponse, AuthResponse, UserUpdateRequest
+from app.schemas.course import CourseCreate, CourseUpdate, CourseResponse, CourseDetailResponse, SourceSummary
+from app.schemas.upload import UploadResponse, SourceStatusResponse
+from app.schemas.tutor import TutorChatRequest, CitationItem, TutorChatResponse
+from app.schemas.assessment import (
+    StudentQuestionItem,
+    AssessmentGenerateRequest,
+    AssessmentGenerateResponse,
+    AssessmentDetailResponse,
+    StudentAnswerItem,
+    AssessmentSubmitRequest,
+    QuestionResultItem,
+    TopicPerformanceItem,
+    AssessmentSubmitResponse,
+)
+
+from app.schemas.youtube import YouTubeSourceRequest, YouTubeSourceResponse
+from app.schemas.evaluation import (
+    ExpectedSource,
+    EvaluationTestCase,
+    EvaluationRunRequest,
+    EvaluationRunResponse,
+    EvaluationStatusResponse,
+    EvaluationMetricsSummary,
+    LearnerSimulationResult,
+    EvaluationResultItem,
+    EvaluationResultsResponse,
+)
+
+from app.schemas.learner import (
+    TopicMasteryItem,
+    TopicMasteryResponse,
+    StrongTopicSummaryItem,
+    WeakTopicSummaryItem,
+    RecentTopicSummaryItem,
+    LearnerSummaryResponse,
+    RecommendationItem,
+    LearnerRecommendationsResponse,
+    StudyPlanItem,
+    StudyPlanResponse,
+)
+
+__all__ = [
+    "SignupRequest",
+    "LoginRequest",
+    "UserResponse",
+    "AuthResponse",
+    "UserUpdateRequest",
+    "CourseCreate",
+    "CourseUpdate",
+    "CourseResponse",
+    "CourseDetailResponse",
+    "SourceSummary",
+    "UploadResponse",
+    "SourceStatusResponse",
+    "TutorChatRequest",
+    "CitationItem",
+    "TutorChatResponse",
+    "StudentQuestionItem",
+    "AssessmentGenerateRequest",
+    "AssessmentGenerateResponse",
+    "AssessmentDetailResponse",
+    "StudentAnswerItem",
+    "AssessmentSubmitRequest",
+    "QuestionResultItem",
+    "TopicPerformanceItem",
+    "AssessmentSubmitResponse",
+    "YouTubeSourceRequest",
+    "YouTubeSourceResponse",
+    "ExpectedSource",
+    "EvaluationTestCase",
+    "EvaluationRunRequest",
+    "EvaluationRunResponse",
+    "EvaluationStatusResponse",
+    "EvaluationMetricsSummary",
+    "LearnerSimulationResult",
+    "EvaluationResultItem",
+    "EvaluationResultsResponse",
+    "TopicMasteryItem",
+    "TopicMasteryResponse",
+    "StrongTopicSummaryItem",
+    "WeakTopicSummaryItem",
+    "RecentTopicSummaryItem",
+    "LearnerSummaryResponse",
+    "RecommendationItem",
+    "LearnerRecommendationsResponse",
+    "StudyPlanItem",
+    "StudyPlanResponse",
+]
+
