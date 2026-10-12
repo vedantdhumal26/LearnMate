@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="lm-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#339eff" />
+      <stop offset="100%" stop-color="#1466e1" />
+    </linearGradient>
+  </defs>
+  <!-- Rounded squircle badge -->
+  <rect width="32" height="32" rx="8" fill="url(#lm-grad)" />
+  <!-- Graduation Cap -->
+  <path d="M16 7L6 12L16 17L26 12L16 7Z" fill="#ffffff" />
+  <path d="M10 14.5V20.5C10 22.5 12.7 24 16 24C19.3 24 22 22.5 22 20.5V14.5" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M24 13.5V19" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" />
+  <circle cx="24" cy="19.5" r="1" fill="#ffffff" />
+  <!-- Green companion indicator dot -->
+  <circle cx="25" cy="7" r="3" fill="#22c55e" stroke="#ffffff" stroke-width="1.2" />
+</svg>

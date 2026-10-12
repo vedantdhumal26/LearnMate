@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ink-50 text-ink-900 font-sans antialiased dark:bg-ink-950 dark:text-ink-100;
+  }
+
+  ::selection {
+    @apply bg-brand-200 text-brand-950 dark:bg-brand-800 dark:text-brand-100;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-ink-200 rounded-full dark:bg-ink-700;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-ink-300 dark:bg-ink-600;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg font-medium transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-400 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-primary {
+    @apply btn bg-brand-600 text-white px-4 py-2.5 text-sm shadow-sm hover:bg-brand-700 active:scale-[0.98];
+  }
+
+  .btn-secondary {
+    @apply btn bg-white text-ink-700 border border-ink-200 px-4 py-2.5 text-sm shadow-sm hover:bg-ink-50 hover:border-ink-300 dark:bg-ink-900 dark:text-ink-200 dark:border-ink-700 dark:hover:bg-ink-800 dark:hover:border-ink-600 active:scale-[0.98];
+  }
+
+  .btn-ghost {
+    @apply btn text-ink-600 px-3 py-2 text-sm hover:bg-ink-100 hover:text-ink-900 dark:text-ink-300 dark:hover:bg-ink-800 dark:hover:text-ink-100;
+  }
+
+  .card {
+    @apply bg-white border border-ink-200 rounded-xl shadow-card transition-all duration-200 dark:bg-ink-900 dark:border-ink-800;
+  }
+
+  .card-hover {
+    @apply card hover:shadow-card-hover hover:border-ink-300 dark:hover:border-ink-700;
+  }
+
+  .input {
+    @apply w-full rounded-lg border border-ink-200 bg-white px-3.5 py-2.5 text-sm text-ink-900 placeholder-ink-400 transition-colors focus:border-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-100 dark:border-ink-700 dark:bg-ink-900 dark:text-ink-100 dark:placeholder-ink-500 dark:focus:ring-brand-900/50;
+  }
+
+  .label {
+    @apply block text-sm font-medium text-ink-700 dark:text-ink-300 mb-1.5;
+  }
+
+  .skeleton {
+    @apply bg-gradient-to-r from-ink-100 via-ink-200 to-ink-100 dark:from-ink-850 dark:via-ink-700 dark:to-ink-850 bg-[length:1000px_100%] rounded-md animate-shimmer;
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-1.5 rounded-full px-2.5 py-0.5 text-xs font-medium;
+  }
+
+  .badge-success {
+    @apply badge bg-accent-50 text-accent-700 border border-accent-200 dark:bg-accent-950/60 dark:text-accent-300 dark:border-accent-800/60;
+  }
+
+  .badge-warn {
+    @apply badge bg-warn-50 text-warn-700 border border-warn-200 dark:bg-warn-950/60 dark:text-warn-300 dark:border-warn-800/60;
+  }
+
+  .badge-error {
+    @apply badge bg-err-50 text-err-700 border border-err-200 dark:bg-err-950/60 dark:text-err-300 dark:border-err-800/60;
+  }
+
+  .badge-neutral {
+    @apply badge bg-ink-100 text-ink-600 border border-ink-200 dark:bg-ink-800 dark:text-ink-300 dark:border-ink-700;
+  }
+
+  .badge-brand {
+    @apply badge bg-brand-50 text-brand-700 border border-brand-200 dark:bg-brand-950/60 dark:text-brand-300 dark:border-brand-800/60;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* ── Subtle Theme Transition ── */
+html.theme-transitioning,
+html.theme-transitioning *,
+html.theme-transitioning *::before,
+html.theme-transitioning *::after {
+  transition: background-color 200ms ease, border-color 200ms ease, color 200ms ease !important;
+  transition-delay: 0s !important;
+}
+
+/* ── Tutor Markdown & KaTeX Styles ── */
+.tutor-content {
+  color: #2f343f;
+  word-break: break-word;
+}
+
+.dark .tutor-content {
+  color: #dde1e8;
+}
+
+.dark .tutor-content h1,
+.dark .tutor-content h2,
+.dark .tutor-content strong {
+  color: #f7f8fa;
+}
+
+.dark .tutor-content h3,
+.dark .tutor-content h4,
+.dark .tutor-content p,
+.dark .tutor-content li,
+.dark .tutor-content td {
+  color: #dde1e8;
+}
+
+.dark .tutor-content th {
+  color: #f7f8fa;
+}
+
+.dark .tutor-content pre {
+  background-color: #121419;
+  border-color: #2f343f;
+}
+
+.dark .tutor-content code:not(pre code) {
+  background-color: #2f343f;
+  color: #8ed6ff;
+  border-color: #434a58;
+}
+
+.dark .tutor-content a {
+  color: #59bdff;
+}
+
+.dark .tutor-content a:hover {
+  color: #8ed6ff;
+}
+
+.dark .tutor-content table {
+  border-color: #2f343f;
+}
+
+.dark .tutor-content thead {
+  background-color: #1d2129;
+  color: #dde1e8;
+}
+
+.dark .tutor-content tbody {
+  background-color: #121419;
+  border-color: #2f343f;
+}
+
+.dark .tutor-content tr:hover {
+  background-color: #1d2129;
+}
+
+.dark .tutor-content blockquote {
+  background-color: rgba(20, 45, 87, 0.4);
+  color: #dde1e8;
+  border-left-color: #339eff;
+}
+
+.tutor-content .katex-display {
+  margin: 0.75rem 0 !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.35rem 0;
+  max-width: 100%;
+}
+
+.tutor-content .katex {
+  font-size: 1.05em;
+  text-rendering: auto;
+}
+
+.dark .tutor-content .katex,
+.dark .tutor-content .katex-display,
+.dark .tutor-content .katex-html,
+.dark .tutor-content .katex .mord {
+  color: #f0f4f8 !important;
+}
+
+.dark .tutor-content .katex .mbin,
+.dark .tutor-content .katex .mrel,
+.dark .tutor-content .katex .mop,
+.dark .tutor-content .katex .minner {
+  color: #8ed6ff !important;
+}
+
+.tutor-content .katex-error {
+  color: #991b1b !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  background-color: #fee2e2;
+  padding: 0.1rem 0.35rem;
+  border-radius: 0.25rem;
+  font-size: 0.85em;
+  border: 1px solid #fecaca;
+}
+
+.dark .tutor-content .katex-error {
+  color: #fca5a5 !important;
+  background-color: #450a0a !important;
+  border-color: #7f1d1d !important;
+}

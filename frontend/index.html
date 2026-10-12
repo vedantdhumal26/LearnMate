@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LearnMate — Your AI-powered learning companion</title>
+    <meta name="description" content="LearnMate — Your AI-powered learning companion. Upload your study material and get a grounded AI tutor that answers from your actual course content." />
+    <meta property="og:title" content="LearnMate — Your AI-powered learning companion" />
+    <meta property="og:description" content="Your AI-powered learning companion. Upload your study material and get a grounded AI tutor that answers from your actual course content." />
+    <meta property="og:image" content="https://bolt.new/static/og_default.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="LearnMate — Your AI-powered learning companion" />
+    <meta name="twitter:description" content="Your AI-powered learning companion." />
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png" />
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('learnsphere-theme');
+          var prefDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefDark)) {
+            document.documentElement.classList.add('dark');
+            document.documentElement.setAttribute('data-theme', 'dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+            document.documentElement.setAttribute('data-theme', 'light');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
