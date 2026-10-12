@@ -116,4 +116,57 @@
  backend/backend/tests/run_phase5b_evaluation.py    |  127 [32m+[m
  backend/backend/tests/test_assessments.py          |  464 [32m+++[m
  backend/backend/tests/test_auth.py                 |  427 [32m++[m
- backend/backend/tests/test_courses.py              | 
+ backend/backend/tests/test_courses.py              |   74 [32m+[m
+ backend/backend/tests/test_evaluation.py           |  914 [32m+++++[m
+ backend/backend/tests/test_health.py               |    6 [32m+[m
+ backend/backend/tests/test_learner_model.py        |  425 [32m++[m
+ backend/backend/tests/test_live_running_server.py  |  175 [32m+[m
+ backend/backend/tests/test_llm_config.py           |   99 [32m+[m
+ backend/backend/tests/test_pptx_ingestion.py       |  304 [32m++[m
+ .../backend/tests/test_prephase8_enhancements.py   |  629 [32m+++[m
+ backend/backend/tests/test_quota_concurrency.py    |  684 [32m++++[m
+ backend/backend/tests/test_study_plan.py           |  426 [32m++[m
+ backend/backend/tests/test_tutor.py                |  126 [32m+[m
+ backend/backend/tests/test_tutor_conversational.py |  339 [32m++[m
+ backend/backend/tests/test_tutor_inspection.py     |   43 [32m+[m
+ backend/backend/tests/test_upload.py               |  116 [32m+[m
+ backend/backend/tests/test_video_ingestion.py      |  342 [32m++[m
+ backend/backend/tests/test_youtube_source.py       |  278 [32m++[m
+ backend/backend/uploads/.gitkeep                   |    1 [32m+[m
+ backend/frontend/.env.example                      |    1 [32m+[m
+ backend/frontend/.gitignore                        |   23 [32m+[m
+ backend/frontend/eslint.config.js                  |   28 [32m+[m
+ backend/frontend/index.html                        |   19 [32m+[m
+ backend/frontend/package-lock.json                 | 4218 [32m++++++++++++++++++++[m
+ backend/frontend/package.json                      |   36 [32m+[m
+ backend/frontend/postcss.config.js                 |    6 [32m+[m
+ backend/frontend/src/App.tsx                       |   30 [32m+[m
+ backend/frontend/src/components/CitationCard.tsx   |  181 [32m+[m
+ backend/frontend/src/components/CourseCard.tsx     |   65 [32m+[m
+ backend/frontend/src/components/EmptyState.tsx     |   23 [32m+[m
+ backend/frontend/src/components/ErrorState.tsx     |   28 [32m+[m
+ backend/frontend/src/components/Logo.tsx           |   15 [32m+[m
+ backend/frontend/src/components/Skeleton.tsx       |   29 [32m+[m
+ backend/frontend/src/components/SourceCard.tsx     |    6 [32m+[m
+ .../frontend/src/components/TypingIndicator.tsx    |   13 [32m+[m
+ backend/frontend/src/components/UploadZone.tsx     |  248 [32m++[m
+ backend/frontend/src/index.css                     |  114 [32m+[m
+ backend/frontend/src/layouts/AppLayout.tsx         |  121 [32m+[m
+ backend/frontend/src/main.tsx                      |   10 [32m+[m
+ .../frontend/src/pages/AssessmentResultsPage.tsx   |  270 [32m++[m
+ backend/frontend/src/pages/AssessmentTakePage.tsx  |  418 [32m++[m
+ backend/frontend/src/pages/AssessmentsPage.tsx     |  323 [32m++[m
+ backend/frontend/src/pages/CoursePage.tsx          |  629 [32m+++[m
+ backend/frontend/src/pages/CreateCoursePage.tsx    |  133 [32m+[m
+ backend/frontend/src/pages/DashboardPage.tsx       |  131 [32m+[m
+ backend/frontend/src/pages/LandingPage.tsx         |  231 [32m++[m
+ .../frontend/src/pages/LearningDashboardPage.tsx   |  479 [32m+++[m
+ backend/frontend/src/pages/TutorPage.tsx           |  429 [32m++[m
+ backend/frontend/src/types/index.ts                |  205 [32m+[m
+ backend/frontend/src/vite-env.d.ts                 |    1 [32m+[m
+ backend/frontend/tailwind.config.js                |  118 [32m+[m
+ backend/frontend/tsconfig.app.json                 |   30 [32m+[m
+ backend/frontend/tsconfig.json                     |    7 [32m+[m
+ backend/frontend/tsconfig.node.json                |   22 [32m+[m
+ backend/frontend/vite.config.ts                    |   16 [32m+[m
+ 171 files changed, 30291 insertions(+), 1 deletion(-)
