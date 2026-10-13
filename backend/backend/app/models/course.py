@@ -4,7 +4,7 @@ from sqlalchemy import Column, String, Text, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
 from app.core.database import Base
 
-DEMO_USER_ID = "demo-user-00000000-0000-0000-000000000000"
+DEMO_USER_ID = "00000000-0000-0000-0000-000000000000"
 DEMO_USER_EMAIL = "demo@learnsphere.local"
 
 class Course(Base):
