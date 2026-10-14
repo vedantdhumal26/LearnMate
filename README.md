@@ -747,10 +747,6 @@ The repository is designed so that core retrieval embeddings can run locally wit
 
 ---
 
-# License
-
-Add the project's intended license here before publishing the repository if a specific open-source license is required.
-
 ---
 
 ## Built for learning, not just answering
