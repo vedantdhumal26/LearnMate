@@ -335,7 +335,7 @@ LearnMate-main/
 
 ### Using  Deployed Link
 
-May Use for login:
+May Use for login as it has some data and saves course creation and data uploding time:
 
 - mail:demo@gmail.com
 - password=123123
