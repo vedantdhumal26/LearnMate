@@ -283,6 +283,8 @@ backend/backend/app/
 - JWT authentication
 - Argon2 password hashing
 
+
+
 ### AI / Retrieval
 
 - OpenAI-compatible LLM interface
@@ -330,6 +332,13 @@ LearnMate-main/
 ---
 
 # Getting Started
+
+### Using  Deployed Link
+
+May Use for login:
+
+- mail:demo@gmail.com
+- password=123123
 
 ## Prerequisites
 
