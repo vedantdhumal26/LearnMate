@@ -717,28 +717,6 @@ The central message:
 
 ---
 
-# Hackathon Submission Checklist
-
-Before submitting:
-
-- [ ] Public GitHub repository is accessible
-- [ ] README explains setup and architecture
-- [ ] `.env.example` files are present
-- [ ] No real API keys or secrets are committed
-- [ ] Backend starts successfully
-- [ ] Frontend starts successfully
-- [ ] Demo course/materials are ready
-- [ ] AI Tutor can answer with citations
-- [ ] Assessment flow works
-- [ ] My Learning flow works
-- [ ] Grounding evaluation can be demonstrated
-- [ ] YouTube demo is 3–10 minutes
-- [ ] YouTube video is public or unlisted, not private
-- [ ] English audio or English subtitles are included
-- [ ] All team members are added to the Devpost project
-
----
-
 # Project Status
 
 LearnMate is an active hackathon project. Some components depend on external services and credentials, including the configured LLM, vision, transcription, PostgreSQL, and Qdrant deployments.
